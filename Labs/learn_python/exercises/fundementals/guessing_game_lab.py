@@ -2,8 +2,7 @@
 By:         Callum Clegg
 Date:       14/01/2023
 
-Desc:       Basic introduction to python for beginners. 
-            Introducing to reading code, refactoring and documentation
+Desc:       This lab will test your knowledge on conditional statements, loops and functions.
 """
 
 import random
@@ -21,7 +20,7 @@ def guessing_game():
 #   1a. ask the player if they would like to play again, this should return a bool value.
 #       call this func inside guessing_game, if this func returns true then run game again, terminate otherwise.
 def check_continue_playing(user_input):
-    pass
+   pass 
 
 #   1b. Check that the user input is infact correct (i.e., what happens if the user enters 'h' or '44'?), 
 #       return a boolean to determine if the user input is infact valid for the game. 
