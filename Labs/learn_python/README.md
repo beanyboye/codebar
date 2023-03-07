@@ -5,8 +5,6 @@ The following is a overview of what has been completed and what has not.
 - - [x] basics
 - - [x] Object Oriented Programming
 - - [ ] Data Structures & algorithms
-- [ ] Learn JavaScript
-- [ ] Learn TypeScript
 
 In this directory you will find exercises for the following topics:
 
@@ -18,7 +16,6 @@ In this directory you will find exercises for the following topics:
 |          -          | abstraction                   | Text                         |
 
 ## Projects
-
 Projects are tasks that will implement all concepts mentioned in a chapter, projects serve as a 
 oppitunity for you to develop a solution to a given task in any way you may deem fit. Talk to your
 coach if you need any advice or support.

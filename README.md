@@ -10,12 +10,27 @@ These labs will provide a context where what you have learned is applied to real
 the use case for tools as much as the logic behind them! You can find more information of specific projects by heading to the 
 **Projects** subsection in each chapter.
 
+## Learn Python
+This directory will cover the basics of python in addition too OOP (Object Orientated Programming). Python is a greate beginner
+language due to its simple syntax and forgiving writing rules. However, application of python maybe more arbitary than other languages, as
+it is mainly used for scripting, data science, data engineering and AI.
+
 ## Learn JavaScript
 These labs are still in the works...
 
 ## Learn TypeScript
 These labs are still in the works...
 
+# Git
+
+If you are not familar with git, here are some great resources for you to get started!
+- [Pro Git Book](https://git-scm.com/book/en/v2)
+- [Learn Git Branching](https://learngitbranching.js.org/)
+- [Atlassian Tutorials](https://www.atlassian.com/git/tutorials)
+- [Git Documentation](https://git-scm.com/docs)
+- [ohshitgit](https://ohshitgit.com/)
+Additionally, [Paolo Perrotta](https://www.pluralsight.com/authors/paolo-perrotta) has some great classes on PluralSight also if you have some money
+to spear.
 
 # Feedback
 
