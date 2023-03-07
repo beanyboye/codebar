@@ -15,3 +15,10 @@ These labs are still in the works...
 
 ## Learn TypeScript
 These labs are still in the works...
+
+
+# Feedback
+
+We are always open to feedback! If you identify any issues, bugs or areas which you feel can be improved, please email us or comment on the repo.
+Additionally, if you have ideas of your own you wish to commit feel free to contribute to the resource, we welcome programmers or all
+levels, however, we must verify that staged changes are free of faults before merging :)

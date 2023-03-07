@@ -1,6 +1,6 @@
 """
 By:         Callum Clegg
-Date:       23/02/2023
+Date:       03/06/2023
 
 Desc:       Solutions for practicing if statements and loops
 """
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     cal: Calculator = Calculator(2, 3)
 
     print(cal.add())
-    print("The difference between x and y is {0}".format(cal.difference()))
+    print(f"The difference between x and y is {cal.difference()}")
 
     print(cal.__getattribute__("_x"))
     cal.__setattr__("_y", 10)

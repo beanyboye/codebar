@@ -76,7 +76,7 @@ def is_prime(n: int) -> bool:
 count: int = 0
 while count < 100:
     if is_prime(count):
-        print("{0} is prime!".format(count))
+        print(f"{0} is prime!".format(count))
     count += 1
     
     
