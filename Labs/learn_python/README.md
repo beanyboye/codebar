@@ -30,7 +30,7 @@ will identify areas of your code that can be optimised such as:
 
 Examples will provide code of projects done by students or coaches that others can read through for
 ideas or inspiration. This is also a resource to learn new approaches to problems and reconsiders
-others ways to problem solve. This will also improve your ability to read a other peoples code - an
+others ways to problem solve. This will also improve your ability to read other peoples code - an
 essential skill in industry!
 
 
