@@ -11,9 +11,11 @@ the use case for tools as much as the logic behind them! You can find more infor
 **Projects** subsection in each chapter.
 
 ## Learn Python
-This directory will cover the basics of python in addition too OOP (Object Orientated Programming). Python is a greate beginner
-language due to its simple syntax and forgiving writing rules. However, application of python maybe more arbitary than other languages, as
-it is mainly used for scripting, data science, data engineering and AI.
+This directory will cover the basics of python, OOP (Object Orientated Programming), data structures and so on. Python is a great beginner
+language due to its simple syntax and forgiving writing rules. However, the application of python maybe more arbitary than other languages, 
+as it's generally used for scripting, data science, data engineering, statistical analysis, AI and ML. This is a great language for automating
+tasks and has a great community; [documentation](https://docs.python.org/3/) is comprehensive and the vast amount of _supported_ libraries
+available makes this a competitive language in the market.
 
 ## Learn JavaScript
 These labs are still in the works...
@@ -29,6 +31,7 @@ If you are not familar with git, here are some great resources for you to get st
 - [Atlassian Tutorials](https://www.atlassian.com/git/tutorials)
 - [Git Documentation](https://git-scm.com/docs)
 - [ohshitgit](https://ohshitgit.com/)
+
 Additionally, [Paolo Perrotta](https://www.pluralsight.com/authors/paolo-perrotta) has some great classes on PluralSight also if you have some money
 to spear.
 
