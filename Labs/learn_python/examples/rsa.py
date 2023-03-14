@@ -1,6 +1,6 @@
 """
 Lab:        Asymmetric Cryptography Implementation (RSA)
-Date:       08/03/23
+Date:       09/03/23
 
 Think:      In this example consider the importance of keeping certain information private
             from the client, take note of the syntax and application of static methods and
@@ -30,8 +30,8 @@ class RSA:
         # Below are assertions that check that the parameters p and q are infact valid
         assert p != q, "Values p and q cannot be equal!" 
 
-        assert self.__is_prime(p), "p is not a prime number!"
-        assert self.__is_prime(q), "q is not a prime number!"
+        assert self.is_prime(p), "p is not a prime number!"
+        assert self.is_prime(q), "q is not a prime number!"
         
         self._n: int = p * q
         self._phi_n: int = (p-1) * (q-1)
@@ -45,7 +45,7 @@ class RSA:
         self.cipher = self.encrypt()
 
     @staticmethod
-    def __is_prime(n: int) -> bool:
+    def is_prime(n: int) -> bool:
         """ Checks if value is in fact prime. """
         if n <= 2 or n % 2 == 0:
             return False
@@ -75,7 +75,6 @@ class RSA:
         """ This method generates the value 'd' for the private key (decrypt). """
         e: int = self.pub[1]
         explore = range(1, self._phi_n * self.RANGE)
-        potential = list();
         potential = [i for i in explore if ((e*i) % self._phi_n == 1)]
 
         return random.choice(potential)
@@ -102,7 +101,6 @@ class RSA:
         return self.__text
 
 if __name__ == "__main__":
-    # Test harness
     testing: RSA = RSA(7, 11, "testing")
 
     print("public:", testing.pub)
