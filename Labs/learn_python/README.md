@@ -33,5 +33,9 @@ ideas or inspiration. This is also a resource to learn new approaches to problem
 others ways to problem solve. This will also improve your ability to read other peoples code - an
 essential skill in industry!
 
+This will also include _testing_ files. Often in industry and education the importance of unit testing
+is not emphasised enough. The examples provided should give you a idea on the importance of testing
+and how testing can be applied in a small project. We encourage you to talk to your coach regarding unit testing.
+
 
 

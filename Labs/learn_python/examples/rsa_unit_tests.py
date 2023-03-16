@@ -11,10 +11,11 @@ import unittest
 from rsa import RSA
 
 class TestConstructor(unittest.TestCase):
-    
+    """ 
+        Think - is there any point testing the constructor in this case?
+    """
     def test_prime_inputs(self):
         pass
-
 class TestIsPrime(unittest.TestCase):
 
     def test_is_negative(self):
@@ -36,6 +37,6 @@ class TestIsPrime(unittest.TestCase):
 
 class TestKeyGenerators(unittest.TestCase):
     pass
-
+ 
 if __name__ == '__main__':
     unittest.main()

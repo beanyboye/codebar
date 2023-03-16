@@ -12,15 +12,19 @@ import random
 class RSA:    
     # This is a formated doc comment
     """ 
-        Parameters
+        RSA
         ----------
-        arg : int
-            number to check is prime
-        
+            By initialising this class you will recieve functionality to encrypt and decrypt data;
+            using the asymmetrcic cryptographic technique RSA.
+
+        ## Arguments 
+        p, q : int 
+            Arguments must be prime and differ between one another (i.e., cannot be the same prime)
+
         Returns
-        -------
-        bool
-            True for it is prime, False otherwise
+        ----------
+        None
+            assertions are in place to ensure the inputs p and q are valid.
     """
 
     # Use underscores to make larger numbers more readable
